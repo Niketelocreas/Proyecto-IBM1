@@ -5,4 +5,4 @@ if edad >= 18:
 else:
   print("No eres mayor de edad")
 
-# Esto es una prueba de sincronización multiple de push y pull
+# Este cambio viene de la nube, para hacer la prueba push pull instantánea
