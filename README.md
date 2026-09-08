@@ -1,24 +1,70 @@
-Proyecto-Final-IBM: Sistema de Gestión de Clientes
+# Python Customer Management System
 
-Este proyecto es una aplicación en Python para la gestión de clientes. Permite agregar, buscar, listar y eliminar clientes de manera sencilla. Está diseñado como una herramienta interactiva en la que los usuarios pueden gestionar información básica de sus clientes.
+A small command-line customer management application built in Python using object-oriented programming.
 
-Funcionalidades
-Agregar un cliente: Permite añadir nuevos clientes al sistema, guardando su nombre, correo electrónico y número de teléfono.
-Buscar un cliente: Busca un cliente en la base de datos por su nombre y devuelve su información si lo encuentra.
-Eliminar un cliente: Elimina un cliente del sistema por su nombre.
-Listar todos los clientes: Muestra una lista con todos los clientes actualmente registrados.
-Menú interactivo: Sistema basado en menús que facilita la interacción con el usuario, mostrando opciones y permitiendo la gestión de clientes de manera simple y eficiente.
-Estructura del Código
-Clase Cliente: Representa a un cliente, almacenando su nombre, correo y teléfono.
-Clase SistemaClientes: Gestiona la lista de clientes y proporciona métodos para agregar, eliminar, buscar y listar clientes.
-Función main(): Proporciona un menú interactivo para que los usuarios puedan interactuar con el sistema.
-Uso
-Ejecuta el archivo principal del sistema.
-Interactúa con el menú que te permite realizar las operaciones deseadas: agregar, eliminar, buscar o listar clientes.
-Sigue las instrucciones en pantalla para ingresar los datos necesarios.
-Ejecución
-Para ejecutar el proyecto, simplemente corre el siguiente comando en la terminal:
+## Project objective
 
+The project implements a simple in-memory system for managing basic customer records through an interactive terminal menu.
+
+Each customer record stores:
+
+- Name
+- Email address
+- Phone number
+
+## Features
+
+The application supports:
+
+- Adding customers
+- Searching for a customer by name
+- Deleting customers
+- Listing all stored customers
+- Interactive command-line navigation
+
+## Object-oriented design
+
+The application is organised around two main classes.
+
+### `Cliente`
+
+Represents an individual customer and stores their contact information.
+
+### `SistemaClientes`
+
+Manages the collection of customer objects and provides the operations required to add, search, remove and list records.
+
+The `main()` function exposes these operations through an interactive command-line menu.
+
+## Running the project
+
+Requirements:
+
+- Python 3.x
+- No external Python packages
+
+Run:
+
+```bash
 python gestion_clientes.py
+```
 
-Este proyecto fue desarrollado como parte del Proyecto Final para el curso de IBM.
+## Repository contents
+
+- `gestion_clientes.py` — main application
+- `Practicas/` — supporting exercises
+- Project documentation files
+
+## Limitations
+
+Customer data is stored only in memory and is lost when the program exits.
+
+The project is therefore best understood as a compact demonstration of Python fundamentals and object-oriented application structure rather than a production customer-management system.
+
+## Background
+
+This project was originally developed as part of an IBM Python learning project.
+
+## Project type
+
+**Python · Object-Oriented Programming · CLI Application**
